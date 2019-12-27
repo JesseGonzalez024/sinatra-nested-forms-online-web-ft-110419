@@ -5,6 +5,8 @@ class Pirate
   
   def initialzie(args)
     @name = args[:name]
+    @weight = args[:weight]
+    @hight = args[:height]
     @@all << self
   end
   
