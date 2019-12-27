@@ -12,15 +12,15 @@ module FormsLab
     end
     
     post '/pirates' do 
-    binding.pry
+   
       @pirate = Pirate.new(params[:pirate])
-      @ship = Ship.new(params[name], )
+      #@ship = Ship.new(params[name], )
       
       
       params[:pirate][:ships].each do |details|
         Ship.new(details)
       end
-      
+      binding.pry
       @ships = Ship.all
       
       erb :'pirates/show'
