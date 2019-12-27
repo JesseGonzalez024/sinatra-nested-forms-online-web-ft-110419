@@ -3,8 +3,8 @@ class Pirate
   
   @@all = []
   
-  def initialzie(params)
-    @name = params[:pirate][:name]
+  def initialzie(args)
+    @name = args[:pirate][:name]
     @@all << self
   end
   
