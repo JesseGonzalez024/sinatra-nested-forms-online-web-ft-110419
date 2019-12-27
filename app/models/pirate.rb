@@ -4,7 +4,7 @@ class Pirate
   @@all = []
   
   def initialzie(args)
-    @name = args[:pirate][:name]
+    @name = args[:name]
     @@all << self
   end
   
