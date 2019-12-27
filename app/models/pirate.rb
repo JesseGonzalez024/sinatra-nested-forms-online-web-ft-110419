@@ -3,10 +3,7 @@ class Pirate
   
   @@all = []
   
-  def initialzie(params)
-    @name = params[:name]
-    @weight = params[:weight]
-    @height = params[:height]
+  def initialzie
     @@all << self
   end
   
